@@ -15,10 +15,16 @@ for (let letter of letters) {
 const gameContainer = document.getElementById('game');
 let card1 = null;
 let card2 = null;
+let card3 = null;
 let cardsFlipped = 0;
 let noClicking = false;
 
 const COLORS = [
+	'mediumvioletred',
+	'cornflowerblue',
+	'aquamarine',
+	'coral',
+	'thistle',
 	'mediumvioletred',
 	'cornflowerblue',
 	'aquamarine',
